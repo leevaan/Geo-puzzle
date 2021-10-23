@@ -1,0 +1,227 @@
+/* H O M E */
+body{
+    background-image: url(img/Bacground.jpg) ;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    font-family: 'lithos';
+    color: #663300;
+    padding: 1.5% 10% 0 10%;
+
+        
+}
+
+.container{
+    position: relative;
+    margin: 0 auto 0 auto;
+    width: 100%;
+    height:auto;
+    max-width: 1920px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.389% 1.389% 0 1.389% ; 
+}
+.logo{
+    width: 11.5%;
+    height: 15.741%;
+}
+.had a{
+    width: 15.5%;
+    height: auto;
+}
+.up-down-puzzle{
+    max-width: 89.021%;
+    height: auto;
+    z-index: 1;
+}
+#login{
+    position: absolute;
+    max-width: 11.198%;
+    height: auto;
+    margin-top: -3.1%;
+    margin-left: 1.389%; 
+    z-index: 1;
+  
+}
+#cotact{
+    position: absolute;
+    max-width: 13.021%;
+    height: auto;
+    margin-top: -3.1%;
+    margin-left: 9.9%;
+    z-index: 1;
+}
+#eccount{
+    position: absolute;
+    max-width: 13.802%;
+    height: auto;
+    margin-top: -3.1%;
+    margin-left: 20.4%;
+    z-index: 1;
+}
+.clic{
+    opacity: 0.85;
+}
+.clic:hover{
+    opacity: 1; 
+}
+.clic:active{
+    transform: scale(0.9965);
+}
+         /*S E C T I O N  */
+section{ 
+position: relative;
+margin-top: -3%;
+width: 100%;
+padding: 4.1% 1.389% 0 1.389%;
+display: flex;
+justify-content: space-between;
+}
+.middle{
+    position: absolute;
+    z-index: -1;
+    height: 112%;
+    width: 100%;
+    left: 0%;
+    top: 0%;
+}
+nav{
+    width: 27%;
+}
+nav ul li{
+    margin-bottom: 1.5%;
+}
+nav ul li a{
+    display: inline-block;
+    height: 100%;
+    width: auto;
+}
+.nav-icon {
+    /* position: absolute; */
+    height: auto;
+    width: 14.8%;
+}
+.nav-button {
+    /* position: absolute; */
+    margin-left: -4.25%;
+    height: auto;
+    width: 48.3%;
+    opacity: 0.85;
+}
+.nav-button:hover{
+    opacity: 1; 
+}
+.nav-button:active{
+    transform: scale(0.9965);
+}
+
+/* #button-1{
+    left: 4.55%;
+}
+#icon-2{
+    top: 26%;
+}
+#button-2{
+    top: 28.82%;
+    left: 4.55%;
+}
+#icon-3{
+    top: 40%;
+}
+#button-3{
+    top: 42.7%;
+    left: 4.555%;
+}
+#icon-4{
+    top: 55%;
+}
+#button-4{
+    top: 57.68%;
+    left: 4.55%;
+}
+#icon-5{
+    top: 70%;
+}
+#button-5{
+    top: 72.6%;
+    left: 4.55%;
+}
+#icon-6{
+    top: 84.45%;
+}
+#button-6{
+    top: 87.1%;
+    left: 4.55%;
+} */
+.gragnili{
+    max-width: 23.438%; 
+    height: 45.37%;
+ 
+}
+h1{
+    font-size: 1.2vw;
+    font-weight: bold;
+    text-align: center;
+}
+
+@media (min-width: 2430px){
+  .up-h1, .down-h1 {
+      font-size: 182%;
+    }
+  .foot-txt{
+      font-size: 125%;
+    }
+}
+.login{
+    position: absolute;
+    max-width: 21.875%;
+    height: auto;
+    left: 1.35%;
+    top: 1.5%;
+}
+.up-h1{
+    position: absolute;
+    top: 13%;
+    left: 19%;
+}
+.down-h1{
+    position: absolute;
+    top: 91%;
+    left: 21%;
+}
+.clic-map:active{
+    transform: scale(0.993); 
+}
+footer{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 1.389% 0 1.389% ;
+}
+.foot-txt{
+   font-weight: 600;
+   transform: translate(0%, 340%);
+   color:  #663300;
+   font-size: 0.80vw;
+   height: 100%;
+}
+svg {
+    position: absolute;
+    left: 30%;
+    top: 19%;
+    width: 38%;
+    height: auto;
+}
+a image{
+    opacity: 0.85;
+}
+a:hover image{
+    transition: 0.7s;
+    opacity: 1;
+}
+a:active path{
+    transform: scale(0.9989);
+}
+
+/* I D E EN G E B  U R T */
